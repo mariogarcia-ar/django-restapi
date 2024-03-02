@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "projects",
+    "dateExported": "2024-03-02T23:39:03.311Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c5324062-b4eb-4514-944c-2fe032d2dacb",
+            "colId": "6679098e-5120-4c64-ba3a-2fee741cd7cc",
+            "containerId": "",
+            "name": "projects/",
+            "url": "{{api_url}}/projects",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-02T23:32:47.883Z",
+            "modified": "2024-03-02T23:37:00.193Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "42a5d91b-bea0-4619-9a24-dd65469fac43",
+            "colId": "6679098e-5120-4c64-ba3a-2fee741cd7cc",
+            "containerId": "",
+            "name": "projects/",
+            "url": "{{api_url}}/projects/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-02T23:32:55.586Z",
+            "modified": "2024-03-02T23:38:04.344Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"un titulo3\",\n    \"description\": \"una descripcion\",\n    \"technology\": \"php \"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
